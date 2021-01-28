@@ -50,7 +50,7 @@
 /* qna view page style */
 .qnaView .writerInfo{width: 80%; margin: auto;}
 .qnaView .writerInfo p{color: #d0af51; font-weight: 300; padding: 0 5px;}
-.qnaView .writeBox{margin: 5px auto 0;}
+.qnaView .writeBox{margin: 5px auto 30px;}
 .qnaView button{margin-left: 5px;}
 
 /* qna answer box style */
@@ -59,4 +59,12 @@
 .qnaView .answerBox .ansInputForm textarea{width: 80%; height: 80px; resize: none; border: 1px solid #d0af51; padding: 5px;}
 
 .qnaView .answerBox .ansInputForm .ansBtnBox{width: 20%; padding-left: 5px;}
-.qnaView .answerBox .ansInputForm button{border: 0; outline: 0; background: #d0af51; color: #fff; width: 100%; height: 100%;}
+.qnaView .answerBox .ansInputForm button{border: 0; outline: 0; background: #d0af51; color: #fff; width: 100%; height: 100%; margin-left: 0;}
+
+.qnaView .ansResult{width: 80%; height: auto; margin: 10px auto 0; border: 1px solid #d0af51; padding: 5px; display: flex;}
+.qnaView .ansResult:first-child{margin-top: 30px;}
+.qnaView .ansResult p{height: 80px;}
+.qnaView .ansResult p.adminId{width: 20%; display: flex; align-items: center; justify-content: center; color: #d0af51; font-weight: 600; flex-direction: column;}
+.qnaView .ansResult p.adminId a{font-weight: 400; background: #d0af51; color: #fff; padding: 3px 15px; font-size: 12px; margin-top: 10px;}
+.qnaView .ansResult p.ansResultTxt{width: 80%; border: 1px solid #d0af51; padding: 5px; color: #838383;}
+/* .qnaView .ansResult .ansDeleteBtn{width: 20%;} */

@@ -164,6 +164,8 @@
   .qnaView .answerBox .ansInputForm textarea{font-size: 12px;}
   .qnaView .answerBox .ansInputForm button{font-size: 12px;}
 
+  .qnaView .ansResult p{font-size: 12px;}
+
 }
 
 
@@ -264,6 +266,10 @@
   .qnaView .answerBox .ansInputForm .ansBtnBox{width: 100%; padding-left: 0; margin-top: 3px;}
   .qnaView .answerBox .ansInputForm textarea{width: 100%;}
   .qnaView .answerBox .ansInputForm button{padding: 5px 0;}
+
+  .qnaView .ansResult{flex-wrap: wrap;}
+  .qnaView .ansResult p.adminId{width: 100%; height: auto; padding: 5px; border: 1px solid #d0af51; justify-content: start; margin-bottom: 5px;}
+  .qnaView .ansResult p.ansResultTxt{width: 100%;}
 }
 
 
@@ -353,5 +359,13 @@
   .qnaBoxes .writeBox{width: 90%; margin: 20px auto 0;}
 
   /* qna view page style */
+  .qnaView .answerBox{width: 90%; text-align: center;}
+  .qnaView .writeBox{margin: 5px auto 0; text-align: center;}
   .qnaView .answerBox{width: 90%; margin-top: 20px;}
+  .qnaBoxes .writeBox button,
+  .qnaBoxes .writeBox a{float: none;}
+
+  .qnaView .ansResult{width: 90%;}
+  .qnaView .ansResult p.adminId a{width: 100%; text-align: center; margin-top: 3px; padding: 5px 0;}
+
 }
