@@ -106,8 +106,8 @@
             <div class="answerBox">
                 <form action="" method="post" name="ansInputForm" class="ansInputForm">
                     <textarea name="ansInputTxt" placeholder="답글을 작성해 주세요."></textarea>
-                    <p class="ansBtn">
-                        <button type="submit">답글달기</button>
+                    <p class="ansBtnBox">
+                        <button type="submit" class="ansBtn">답글달기</button>
                     </p>
                     
                 </form>
