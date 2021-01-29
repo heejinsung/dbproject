@@ -166,6 +166,8 @@
 
   .qnaView .ansResult p{font-size: 12px;}
 
+  .qnaBoxes .writeBox .qnaGuide span{font-size: 12px;}
+
 }
 
 
@@ -232,7 +234,8 @@
   .designBoxes .designBox{width: 50%;}
 
   .btns{flex-wrap: wrap; justify-content: space-between;}
-  .btns>a{margin-right: 0; margin-top: 5px;}
+  .btns>a.commonBtn{margin-right: 0; _margin-top: 5px;}
+  .btns button.commonBtn{width: 49.5%;}
   .btns>a:nth-child(1){width: 49.5%;}
   .btns>a:nth-child(2){width: 49.5%;}
   .btns>a:nth-child(3){width: 100%; background: #d0af51; color: #fff;}

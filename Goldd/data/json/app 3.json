@@ -1,0 +1,82 @@
+[
+    {
+        "appnum": "10",
+        "apptitle": "Medicine Reminder",
+        "appser": "21010308",
+        "appdes": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. ",
+        "appmain": "app_main_008.jpg",
+        "appthumb": "app_008.jpg",
+        "appclient": "Hanyang Hosp.",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "9",
+        "apptitle": "Dimest",
+        "appser": "21010307",
+        "appdes": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" <br \/>\r\nby Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "appmain": "app_main_007.png",
+        "appthumb": "app_007.png",
+        "appclient": "Dimest company",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "8",
+        "apptitle": "Plants App",
+        "appser": "21010306",
+        "appdes": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br \/>\r\nIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. <br \/>\r\nAll the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, ",
+        "appmain": "app_main_006.png",
+        "appthumb": "app_006.png",
+        "appclient": "Plants",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "7",
+        "apptitle": "Jenny Mazursky",
+        "appser": "21010305",
+        "appdes": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum",
+        "appmain": "app_main_005.png",
+        "appthumb": "app_005.png",
+        "appclient": "Jenny",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "6",
+        "apptitle": "Beranda",
+        "appser": "20210304",
+        "appdes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br \/>\r\n when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "appmain": "app_main_004.png",
+        "appthumb": "app_004.png",
+        "appclient": "Mitchell",
+        "appreg": "2021-01-20"
+    },
+    {
+        "appnum": "5",
+        "apptitle": "Plant Store",
+        "appser": "20210303",
+        "appdes": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "appmain": "app_main_003.png",
+        "appthumb": "app_003.png",
+        "appclient": "Florida",
+        "appreg": "2021-01-19"
+    },
+    {
+        "appnum": "4",
+        "apptitle": "Portfolio",
+        "appser": "20210302",
+        "appdes": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
+        "appmain": "app_main_002.jpg",
+        "appthumb": "app_002.jpg",
+        "appclient": "Unknown",
+        "appreg": "2021-01-19"
+    },
+    {
+        "appnum": "2",
+        "apptitle": "Tesla Model X",
+        "appser": "20210301",
+        "appdes": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the <br \/>\r\n<br \/>\r\nactual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,<br \/>\r\n<br \/>\r\nbecause it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. ",
+        "appmain": "app_main_001.png",
+        "appthumb": "app_001.png",
+        "appclient": "Tesla",
+        "appreg": "2021-01-19"
+    }
+]

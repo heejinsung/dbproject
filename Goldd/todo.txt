@@ -16,6 +16,9 @@
 14. 페이지네이션 갯수 한정
 15. 네이버, 카카오 등으로 로그인하기
 16. 조회수 증가
+17. 글 확인 <br> 출력 제거
+
+18. select box 
 
 //database connect
 include $_SERVER['DOCUMENT_ROOT'].'/Goldd/php_process/connect/db_connect.php';
