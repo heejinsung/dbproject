@@ -322,8 +322,9 @@
 
   /* design detail page stye */
   .detailDesc p{font-size:12px;}
-  .designRight .webTit h2{font-size:18px;}
-  .designRight{width:100%; float:none; padding:0 5%;}
+  .deWeRight .webTit h2,
+  .deWeRight .appTit h2{font-size:18px;}
+  .deWeRight{width:100%; float:none; padding:0 5%;}
   .detailCon{padding-right:0; width:90%; margin:auto;}
 
   /* web page style */
