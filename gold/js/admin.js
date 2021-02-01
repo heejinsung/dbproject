@@ -11,7 +11,7 @@ $(function(){
          $(".adminPanel").hide();
          $(".adminPanel").eq(tabIndex).show();
       });
-      $(".adminPanel").eq(0).trigger("click");
+      $(".adminTabs button").eq(0).trigger("click");
    };
    adminTab();
 });
