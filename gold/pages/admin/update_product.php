@@ -15,13 +15,7 @@
     <link rel="stylesheet" href="/gold/css/style.css" />
 
     <!-- design css link -->
-    <link rel="stylesheet" href="/gold/css/design_web_app.css">
-
-    <!-- qna css link -->
-    <link rel="stylesheet" href="/gold/css/qna.css">
-
-    <!-- admin css link -->
-    <link rel="stylesheet" href="/gold/css/admin.css">
+    <link rel="stylesheet" href="/gold/css/web_design_input.css">
 
     <!-- animation css link -->
     <link rel="stylesheet" href="/gold/css/animation.css" />
@@ -34,14 +28,14 @@
       
       <?php include $_SERVER["DOCUMENT_ROOT"]."/gold/include/header.php" ?>
 
-      <section class="contents qna hasTitle">
+      <section class="contents upload hasTitle">
         <div class="center">
           <!-- contact title -->
           <div class="title">
-            <h2>Search Result</h2>
+            <h2>UPDATE PROJECTS</h2>
             <div class="subTit">
               <span class="subLine"></span>
-              <a href="#" class="subLink">View More Details</a>
+              <!-- <a href="#" class="subLink">View More Details</a> -->
             </div>
           </div>
           <!-- end of contact title -->
@@ -50,8 +44,6 @@
             $include_path=$_GET['key'];
             include $_SERVER["DOCUMENT_ROOT"]."/gold/include/$include_path.php" 
           ?>
-
-          </div> 
 
         </div>
         <!-- end of center -->
@@ -64,6 +56,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/gold/js/custom.js"></script>
-    <script src="/gold/js/web_design_page.js"></script>
+    <script src="/gold/js/design_upload.js"></script>
   </body>
 </html>

@@ -45,17 +45,15 @@
          <div class="center">
           
             <div class="adminTabs">
-               <button type="button" class="active"><i class="fa fa-envelope"></i><b>메시지 관리</b></button>
-               <button type="button"><i class="fa fa-user"></i><b>회원 관리</b></button>
-               <button type="button"><i class="fa fa-desktop"></i><b>Web 관리</b></button>
-               <button type="button"><i class="fa fa-mobile"></i><b>App 관리</b></button>
-               <button type="button"><i class="fa fa-comment"></i><b>Q&A 관리</b></button>
+               <button type="button" class="active"><b>메시지 관리</b></button>
+               <button type="button"><b>회원 관리</b></button>
+               <button type="button"><b>Q&A 관리</b></button>
             </div>
 
             <div class="msgTab deWeBoxes adminPanel">
-               <div class="msgTable">
-                  <ul class="msgList">
-                     <li class="msgTitle clear">
+               <div class="adminTable">
+                  <ul class="adminList">
+                     <li class="adminTitle clear">
                         <span class="msgNum">번호</span>
                         <span class="msgId">이름</span>
                         <span class="msgTit">제목</span>
@@ -79,7 +77,7 @@
                         $msg_email=$msg_row['GOLD_MSG_email'];
                      
                      ?>
-                     <li class="msgContents clear">
+                     <li class="adminContents clear">
                         <span class="msgNum"><?=$msg_num?></span>
                         <span class="msgId"><?=$msg_id?></span>
                         <span class="msgTit"><a href="/gold/pages/admin/admin_view.php?num=<?=$msg_num?>"><?=$msg_tit?></a></span>
@@ -95,7 +93,7 @@
                <!-- end of msg table  -->
                <div class="searchPaging clear">
                   <div class="search">
-                     <form action="/gold/pages/admin/msg_search_result.php" method="post" name="adminSearch" class="clear adminSearch">
+                     <form action="/gold/pages/admin/search_result.php?key=msg_result" method="post" name="adminSearch" class="clear adminSearch">
                         <select name="searchSelect" id="" class="searchSelect">
                         <option value="adminSearchId">아이디</option>
                         <option value="adminSearchTitle">제목</option>
@@ -120,9 +118,77 @@
             </div>  
             <!-- end of msg tab -->
 
-            <div class="memberTab adminPanel">member tab</div>
-            <div class="webTab adminPanel">web tab</div>
-            <div class="appTab adminPanel">app tab</div>
+            <div class="memberTab deWeBoxes adminPanel">
+               <div class="adminTable">
+                  <ul class="adminList">
+                     <li class="adminTitle clear">
+                        <span class="memNum">번호</span>
+                        <span class="memId">아이디</span>
+                        <span class="memName">이름</span>
+                        <span class="memLevel">레벨</span>
+                        <span class="memPoint">포인트</span>
+                        <span class="memUpdate">수정</span>
+                        <span class="memDelete">삭제</span>
+                     </li>
+
+                     <?php
+                     $sql="select * from gold_mem order by GOLD_mem_num desc limit 5";
+                     $mem_result = mysqli_query($dbConn, $sql);
+
+                     while($mem_row=mysqli_fetch_array($mem_result)){
+                        $mem_num=$mem_row['GOLD_mem_num'];
+                        $mem_id=$mem_row['GOLD_mem_id'];
+                        $mem_name=$mem_row['GOLD_mem_name'];
+                        $mem_level=$mem_row['GOLD_mem_level'];
+                        $mem_point=$mem_row['GOLD_mem_point'];
+                     
+                    ?>
+
+                     <li class="adminContents clear">
+                        <form action="/gold/php_process/pages/mem_update.php?num=<?=$mem_num?>" method="post">
+                           <span class="memNum"><?=$mem_num?></span>
+                           <span class="memId"><?=$mem_id?></span>
+                           <span class="memName"><?=$mem_name?></span>
+                           <span class="memLevel"><input type="text" value="<?=$mem_level?>" name="level"></span>
+                           <span class="memPoint"><input type="text" value="<?=$mem_point?>" name="point"></span>
+                           <span class="memUpdate"><button type="submit">수정</button></span>
+                           <span class="memDelete"><button type="button" onclick="location.href='/gold/php_process/pages/mem_delete.php?num=<?=$mem_num?>'">삭제</button></span>
+                        </form>
+                     </li>
+
+                     <?php
+                     }
+                     ?>
+                  </ul>
+               </div>
+
+               <div class="searchPaging clear">
+                  <div class="search">
+                     <form action="/gold/pages/admin/search_result.php?key=mem_result" method="post" name="memberSearch" class="clear adminSearch">
+                        <select name="searchSelect" id="" class="searchSelect">
+                           <option value="memberSearchId">아이디</option>
+                           <option value="memberSearchTitle">이름</option>
+                        </select>
+                        <input type="text" name="memberSearchInput" placeholder="검색어를 입력해 주세요" class="adminSearchInput">
+                        <button type="button" class="adminSearchBtn"><i class="fa fa-search" onclick="member_search_check()"></i></button>
+                        <script>
+                        function member_search_check(){
+                           if(!document.memberSearch.memberSearchInput.value){
+                              alert('검색어를 입력해 주세요.');
+                              document.memberSearch.memberSearchInput.focus();
+                              return;
+                           }
+                           document.memberSearch.submit();
+                        }
+                        </script>
+                     </form>
+                  </div>   
+                  <!-- end of search -->
+               </div>
+               <!-- end of searchPage -->
+            </div>
+            <!-- end of member tab -->
+
             <div class="qnaTab adminPanel">qna tab</div>
 
          </div>
@@ -142,6 +208,7 @@
     <script src="/gold/js/custom.js"></script>
     <script src="/gold/js/web_design_page.js"></script>
     <script src="/gold/js/admin.js"></script>
+   
    
   </body>
 </html>

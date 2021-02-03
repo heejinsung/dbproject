@@ -95,6 +95,11 @@
                 <a href="/gold/index.php#contact"><i class="fa fa-arrow-right"></i>Get In Touch With...</a>
               </div>
             </div>
+
+            <div class="productAdminBtns">
+                <button type="button" onclick="location.href='/gold/pages/admin/update_product.php?key=design_update_form&num=<?=$web_detail_num?>'">수정</button>
+                <button type="button" onclick="confirmDel()">삭제</button>
+              </div>
             <!-- end of web detail contents -->
           </div>
           <!-- end of left box -->

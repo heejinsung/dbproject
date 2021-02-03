@@ -262,7 +262,7 @@
                   <input type="text" name="msgTit" placeholder="Subject" />
                 </p>
                 <p class="message">
-                  <textarea name ="msgTxt" placeholder="Your Message"></textarea>
+                  <textarea name="msgTxt" placeholder="Your Message"></textarea>
                 </p>
                 <a href="#" class="msgSend">SEND MESSAGE</a>
               </form>
@@ -274,7 +274,7 @@
               function msgSend(e){
                 e.preventDefault();
                 if(!document.msgForm.msgName.value){
-                  alert("성함을 입력해 주세요.");
+                  alert("성함를 입력해 주세요.");
                   document.msgForm.msgName.focus();
                   return;
                 }
@@ -298,10 +298,8 @@
                 }
 
                 document.msgForm.submit();
-                
               }
-            </script>  
-
+            </script>
           </div>
         </div>
       </section>

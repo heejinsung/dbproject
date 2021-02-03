@@ -40,7 +40,7 @@
           </div>
           <!-- end of contact title -->
 
-          <!-- design input contents form -->
+          <!-- app input contents form -->
           <div class="designInputFrom webDesignInput">
             <form action="/gold/php_process/pages/app_insert.php" method="post" name="app_form" enctype="multipart/form-data">
               <div class="titleSer clear">
