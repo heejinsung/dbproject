@@ -1,5 +1,5 @@
 # Database Project
-프론트엔드 개발과 전반적인 백엔드 개발 기능 구현한 데이터베이스 프로젝트
+웹 사이트에서 데이터의 입력 및 수정 등 포트폴리오를 관리할수 있는 사
 
 <img src="https://user-images.githubusercontent.com/77706805/112946742-d9b7d400-9170-11eb-92af-16aacc1c01b4.jpg" width="70%">
 
