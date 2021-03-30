@@ -1,7 +1,7 @@
 # Database Project
 프론트엔드 개발과 전반적인 백엔드 개발 기능 구현한 데이터베이스 프로젝트
 
-<img src="https://user-images.githubusercontent.com/77706805/112939308-3366d100-9166-11eb-9751-660851b5c111.jpg" width="70%">
+<img src="https://user-images.githubusercontent.com/77706805/112946742-d9b7d400-9170-11eb-92af-16aacc1c01b4.jpg" width="70%">
 
 > [dbproject 사이트](http://shj6837.dothome.co.kr/gold/)
 
